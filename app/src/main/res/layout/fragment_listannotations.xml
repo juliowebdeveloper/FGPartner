@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearScroll">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anotações Criadas - Clique nos titulos para edita-las"
+        style="@style/titleStyle"/>
+
+
+    <SearchView android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:id="@+id/searchView"
+        android:queryHint="Digite o jogo cuja anotação você deseja encontrar"/>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/rvListAnnotations"
+
+        />
+
+
+
+</LinearLayout>

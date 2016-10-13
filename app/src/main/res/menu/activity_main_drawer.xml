@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_games"
+            android:icon="@drawable/ic_games"
+            android:title="@string/mygames" />
+        <item
+            android:id="@+id/nav_allgames"
+            android:icon="@drawable/ic_games"
+            android:title="@string/allGamesNav" />
+        <item
+            android:id="@+id/nav_annotationcreate"
+            android:icon="@drawable/ic_annotation"
+            android:title="@string/annotations" />
+        <item
+            android:id="@+id/nav_annotationlist"
+            android:icon="@drawable/ic_annotation"
+            android:title="@string/annotationsList"
+            />
+
+    </group>
+
+    <item android:title="Extras - Não disponível">
+
+    </item>
+
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_login">Login</string>
+    <string name="action_password">Senha</string>
+    <string name="hint_password">Senha</string>
+    <string name="hint_username">Username</string>
+    <string name="loginIntro">Logue-se ou crie seu usuário aqui</string>
+    <string name="mygames">Meus Jogos</string>
+    <string name="annotations">Anotações</string>
+    <string name="annotation_main_title">Crie suas anotações sobre suas partidas, treinos, etc, vamos acompanhando seu progresso.</string>
+    <string name="hintAnnotationTitle">Titulo</string>
+    <string name="annotationsDescription">Descrição</string>
+    <string name="salvarAnotacao">Salvar Anotação</string>
+    <string name="showListAnnotation">Mostrar minha anotações</string>
+    <string name="annotationsList">Minhas Anotações</string>
+    <string name="personagensSelecionaveis">Personagens Selecionáveis</string>
+    <string name="topPlayers">Top Players</string>
+    <string name="allGamesNav">Todos os jogos</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/TextViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/annotation_main_title"
+        android:textSize="10dp" />
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/etAnotTitle"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintAnnotationTitle"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent">
+    </EditText>
+
+
+
+
+    <EditText
+        android:id="@+id/etAnotDescription"
+        android:layout_height="wrap_content"
+        android:hint="@string/annotationsDescription"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:layout_width="match_parent">
+    </EditText>
+
+
+
+
+    <Spinner
+        android:id="@+id/spinnerGames"
+        android:layout_height="wrap_content"
+        android:layout_width= "match_parent" />
+
+    <Button
+        android:id="@+id/buttonSalvarAnotacao"
+        android:text="@string/salvarAnotacao"
+        style="@style/confirmationButton" />
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/showListAnnotation"
+        android:id="@+id/buttonShowListAnnotations"
+        android:visibility="invisible"/>
+
+</LinearLayout>
+
+    </ScrollView>
